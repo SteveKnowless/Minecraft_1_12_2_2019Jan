@@ -1,0 +1,80 @@
+[
+  {
+    "item" : "enderore:ore_ender",
+    "color" : 5,
+    "rarity" : [
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
+        "depth_min": 0,
+        "depth_max": 255,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "item" : "tconstruct:slime_congealed",
+    "color" : 13,
+    "rarity" : [
+      {
+        "whitelist": "minecraft:hell, minecraft:sky",
+        "blacklist": "",
+        "depth_min": 0,
+        "depth_max": 255,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "item" : "tconstruct:slime_congealed:1",
+    "color" : 11,
+    "rarity" : [
+      {
+        "whitelist": "minecraft:hell, minecraft:sky",
+        "blacklist": "",
+        "depth_min": 0,
+        "depth_max": 255,
+        "weight": 1
+      }
+    ]
+  },
+    {
+    "item" : "tconstruct:slime_congealed:2",
+    "color" : 10,
+    "rarity" : [
+      {
+        "whitelist": "minecraft:hell, minecraft:sky",
+        "blacklist": "",
+        "depth_min": 0,
+        "depth_max": 255,
+        "weight": 1
+      }
+    ]
+  },
+    {
+    "item" : "tconstruct:slime_congealed:3",
+    "color" : 14,
+    "rarity" : [
+      {
+        "whitelist": "minecraft:hell, minecraft:sky",
+        "blacklist": "",
+        "depth_min": 0,
+        "depth_max": 255,
+        "weight": 1
+      }
+    ]
+  },
+    {
+    "item" : "tconstruct:slime_congealed:4",
+    "color" : 1,
+    "rarity" : [
+      {
+        "whitelist": "minecraft:hell, minecraft:sky",
+        "blacklist": "",
+        "depth_min": 0,
+        "depth_max": 255,
+        "weight": 1
+      }
+    ]
+  }
+]
