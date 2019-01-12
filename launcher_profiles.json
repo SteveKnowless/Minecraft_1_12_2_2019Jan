@@ -2,7 +2,7 @@
   "profiles": {
     "(Default)": {
       "name": "(Default)",
-      "lastVersionId": "1.12.2-forge1.12.2-14.23.5.2796",
+      "lastVersionId": "1.12.2-forge1.12.2-14.23.5.2807",
       "javaArgs": "-Xmx4G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent\u003d20 -XX:G1ReservePercent\u003d20 -XX:MaxGCPauseMillis\u003d50 -XX:G1HeapRegionSize\u003d16M"
     }
   }

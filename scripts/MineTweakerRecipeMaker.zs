@@ -38,15 +38,23 @@ furnace.addRecipe(<minecraft:leather>, <minecraft:rotten_flesh>,  0.05);
 
 // ================================================================================
 //#MARKER REMOVE SHAPED
+recipes.removeShaped(<aether_legacy:golden_ring>, [[null, <minecraft:gold_ingot>, null], [<minecraft:gold_ingot>, null, <ore:ingotGold>], [null, <ore:ingotGold>, null]]);
+recipes.removeShaped(<aether_legacy:iron_ring>, [[null, <minecraft:iron_ingot>, null], [<minecraft:iron_ingot>, null, <ore:ingotIron>], [null, <ore:ingotIron>, null]]);
 
 // ================================================================================
 //#MARKER ADD
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<fluxnetworks:flux> * 9, [<minecraft:redstone_block>, <minecraft:lava_bucket>]);
+recipes.addShapeless(<fluxnetworks:flux>, [<minecraft:redstone>, <minecraft:lava_bucket>]);
+recipes.addShapeless(<fluxnetworks:flux> * 9, [<minecraft:redstone_block>, <minecraft:flint>]);
+recipes.addShapeless(<fluxnetworks:flux>, [<minecraft:redstone>, <minecraft:flint>]);
 recipes.addShapeless(<minecraft:blaze_powder>, [<ore:dustRedstone>, <ore:dustGlowstone>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<aether_legacy:golden_ring>, [[null, <ore:ingotGold>, null], [<minecraft:gold_ingot>, <ore:ingotGold>, <ore:ingotGold>], [null, <minecraft:gold_ingot>, null]]);
+recipes.addShaped(<aether_legacy:iron_ring>, [[null, <ore:ingotIron>, null], [<minecraft:iron_ingot>, <ore:ingotIron>, <ore:ingotIron>], [null, <minecraft:iron_ingot>, null]]);
 recipes.addShaped(<minecraft:ghast_tear>, [[<minecraft:nether_wart>, <ore:cropNetherWart>, <minecraft:nether_wart>], [<ore:cropNetherWart>, <minecraft:fire_charge>, <minecraft:nether_wart>], [<ore:cropNetherWart>, <ore:cropNetherWart>, <ore:cropNetherWart>]]);
 recipes.addShaped(<minecraft:glowstone_dust> * 4, [[<ore:nuggetGold>, <ore:dustRedstone>, <ore:nuggetGold>], [<ore:dustRedstone>, <ore:nuggetGold>, <ore:dustRedstone>], [<ore:nuggetGold>, <ore:dustRedstone>, <ore:nuggetGold>]]);
