@@ -1,0 +1,16 @@
+{
+  "entries": [
+    {
+      "item": "quark:marble|0",
+      "emc": 7
+    },
+    {
+      "item": "quark:limestone|0",
+      "emc": 3
+    },
+    {
+      "item": "quark:basalt|0",
+      "emc": 3
+    }
+  ]
+}
