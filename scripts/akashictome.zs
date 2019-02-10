@@ -3,7 +3,9 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
-#packmode normal simplified
+#Name: AkashicTome.zs
+
+print("Initializing 'AkashicTome.zs'...");
 
 
 print(" =================== Akashic Tome =================== ");
@@ -40,3 +42,6 @@ print(" ==================================================== ");
 
 	//1 dirt = book
 	recipes.addShapeless(completeTome, [<minecraft:dirt>]);
+
+	
+print("Initialized 'AkashicTome.zs'");

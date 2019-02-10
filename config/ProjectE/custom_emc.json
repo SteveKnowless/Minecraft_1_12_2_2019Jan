@@ -11,6 +11,26 @@
     {
       "item": "quark:basalt|0",
       "emc": 3
+    },
+    {
+      "item": "petrock:stoneium|0",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:stained_glass_pane|0",
+      "emc": 1
+    },
+    {
+      "item": "industrialforegoing:pink_slime|0",
+      "emc": 3584
+    },
+    {
+      "item": "industrialforegoing:laser_lens|0",
+      "emc": 14337
+    },
+    {
+      "item": "industrialforegoing:laser_drill|0",
+      "emc": 83527
     }
   ]
 }

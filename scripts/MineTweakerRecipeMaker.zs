@@ -10,25 +10,6 @@
 // ================================================================================
 //
 
-import mods.thermalexpansion.Pulverizer;
-import mods.thermalexpansion.Crucible;
-import mods.thermalexpansion.RedstoneFurnace;
-
-// ================================================================================
-//#Dimensional Shards
-mods.thermalexpansion.Pulverizer.addRecipe(<rftools:dimensional_shard> * 2, <rftools:dimensional_shard_ore>, 4000, <rftools:dimensional_shard>, 10);
-mods.thermalexpansion.Pulverizer.addRecipe(<rftools:dimensional_shard> * 2, <rftools:dimensional_shard_ore:1>, 4000, <rftools:dimensional_shard>, 10);
-mods.thermalexpansion.Pulverizer.addRecipe(<rftools:dimensional_shard> * 2, <rftools:dimensional_shard_ore:2>, 4000, <rftools:dimensional_shard>, 10);
-
-// ================================================================================
-
-mods.thermalexpansion.Pulverizer.addRecipe(<enderore:dust_ender> * 2, <enderore:ore_ender>, 4000, <minecraft:ender_pearl>, 10);
-mods.thermalexpansion.Crucible.addRecipe(<liquid:ender> * 1000, <enderore:ore_ender>, 4000);
-mods.thermalexpansion.Crucible.addRecipe(<liquid:ender> * 100, <enderore:dust_ender>, 4000);
-
-//#FluxNetworks
-furnace.addRecipe(<fluxnetworks:flux>, <minecraft:redstone>);
-furnace.addRecipe(<fluxnetworks:fluxblock>, <minecraft:redstone_block>);
 
 // ================================================================================
 //#MARKER REMOVE
@@ -65,72 +46,4 @@ recipes.addShaped(<minecraft:blaze_powder>, [
 [<ore:dustGlowstone>, <minecraft:redstone>]
 ]);
 
-//#Chisel
-recipes.addShaped(<chisel:basalt2:7> *8, [
-  [<ore:stone>, <ore:stone>, <ore:stone>],
-  [<ore:stone>, <ore:dyeBlack>, <ore:stone>],
-  [<ore:stone>, <ore:stone>, <ore:stone>]
-]);
 
-recipes.addShaped(<chisel:limestone2:7> *8, [
-  [<ore:stone>, <ore:stone>, <ore:stone>],
-  [<ore:stone>, <ore:dyeYellow>, <ore:stone>],
-  [<ore:stone>, <ore:stone>, <ore:stone>]
-]);
-
-recipes.addShaped(<chisel:marble2:7> *8, [
-  [<ore:stone>, <ore:stone>, <ore:stone>],
-  [<ore:stone>, <ore:dyeWhite>, <ore:stone>],
-  [<ore:stone>, <ore:stone>, <ore:stone>]
-]);
-
-//#Chickens
-recipes.addShaped(<chickens:spawn_egg>.withTag({
-  ChickenType: {
-    id: "chickens:flintchicken"
-  }
-}), [
-  [<minecraft:flint>, <minecraft:flint>, <minecraft:flint>],
-  [<minecraft:flint>, <minecraft:egg>, <minecraft:flint>],
-  [<minecraft:flint>, <minecraft:flint>, <minecraft:flint>]
-]);
-
-recipes.addShaped(<chickens:spawn_egg>.withTag({
-  ChickenType: {
-    id: "chickens:sandchicken"
-  }
-}), [
-  [<ore:sand>, <ore:sand>, <ore:sand>],
-  [<ore:sand>, <minecraft:egg>, <ore:sand>],
-  [<ore:sand>, <ore:sand>, <ore:sand>]
-]);
-
-recipes.addShaped(<chickens:spawn_egg>.withTag({
-  ChickenType: {
-    id: "chickens:logchicken"
-  }
-}), [
-  [<ore:logWood>, <ore:logWood>, <ore:logWood>],
-  [<ore:logWood>, <minecraft:egg>, <ore:logWood>],
-  [<ore:logWood>, <ore:logWood>, <ore:logWood>]
-]);
-
-recipes.addShaped(<chickens:spawn_egg>.withTag({
-  ChickenType: {
-    id: "chickens:soulsandchicken"
-  }
-}), [
-  [<ore:soulSand>, <ore:soulSand>, <ore:soulSand>],
-  [<ore:soulSand>, <minecraft:egg>, <ore:soulSand>],
-  [<ore:soulSand>, <ore:soulSand>, <ore:soulSand>]
-]);
-
-recipes.addShaped(<chickens:spawn_egg>.withTag({
-  ChickenType: {
-    id: "chickens:quartzchicken"
-  }
-}), [
-  [<ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>],
-  [<ore:gemQuartz>, <minecraft:egg>, <ore:gemQuartz>],
-  [<ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>]
-]);

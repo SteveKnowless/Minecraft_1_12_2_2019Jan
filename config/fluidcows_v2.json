@@ -105,7 +105,7 @@
   },
   "fiery_essence": {
     "SpawnRate": 5,
-    "IsEnabled": true,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -138,7 +138,7 @@
   },
   "refined_fuel": {
     "SpawnRate": 5,
-    "IsEnabled": true,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -160,7 +160,7 @@
   },
   "poison": {
     "SpawnRate": 5,
-    "IsEnabled": true,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -193,7 +193,7 @@
   },
   "zinc": {
     "SpawnRate": 5,
-    "IsEnabled": true,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -314,7 +314,7 @@
   },
   "blueslime": {
     "SpawnRate": 5,
-    "IsEnabled": true,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -457,7 +457,7 @@
   },
   "aerotheum": {
     "SpawnRate": 5,
-    "IsEnabled": true,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -501,7 +501,7 @@
   },
   "tree_oil": {
     "SpawnRate": 5,
-    "IsEnabled": true,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -523,7 +523,7 @@
   },
   "alubrass": {
     "SpawnRate": 5,
-    "IsEnabled": true,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -556,7 +556,7 @@
   },
   "steam": {
     "SpawnRate": 5,
-    "IsEnabled": true,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -688,7 +688,7 @@
   },
   "hot_spring_water": {
     "SpawnRate": 5,
-    "IsEnabled": true,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -754,7 +754,7 @@
   },
   "biocrude": {
     "SpawnRate": 5,
-    "IsEnabled": true,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -798,7 +798,7 @@
   },
   "seed_oil": {
     "SpawnRate": 5,
-    "IsEnabled": true,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -809,7 +809,7 @@
   },
   "liquid_death": {
     "SpawnRate": 5,
-    "IsEnabled": true,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -897,7 +897,7 @@
   },
   "purifying_fluid": {
     "SpawnRate": 5,
-    "IsEnabled": true,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -930,7 +930,7 @@
   },
   "crystal_water": {
     "SpawnRate": 5,
-    "IsEnabled": true,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -941,7 +941,7 @@
   },
   "creosote": {
     "SpawnRate": 5,
-    "IsEnabled": true,
+    "IsEnabled": false,
     "WorldCooldown": 4000,
     "StallCooldown": 4000,
     "BreedingChance": 50,
@@ -1083,6 +1083,17 @@
     "Parent Second": ""
   },
   "clay": {
+    "SpawnRate": 5,
+    "IsEnabled": true,
+    "WorldCooldown": 4000,
+    "StallCooldown": 4000,
+    "BreedingChance": 50,
+    "BreedingCooldown": 6000,
+    "GrowingAge": -24000,
+    "Parent First": "",
+    "Parent Second": ""
+  },
+  "liquidemc": {
     "SpawnRate": 5,
     "IsEnabled": true,
     "WorldCooldown": 4000,
