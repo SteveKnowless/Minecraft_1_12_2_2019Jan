@@ -31,6 +31,34 @@
     {
       "item": "industrialforegoing:laser_drill|0",
       "emc": 83527
+    },
+    {
+      "item": "biomesoplenty:fleshchunk|0",
+      "emc": 1
+    },
+    {
+      "item": "avaritia:resource|5",
+      "emc": 3413380960
+    },
+    {
+      "item": "thermalfoundation:storage_alloy|0",
+      "emc": 2835
+    },
+    {
+      "item": "thermalfoundation:storage_alloy|7",
+      "emc": 13176
+    },
+    {
+      "item": "avaritia:ultimate_stew|0",
+      "emc": 149909
+    },
+    {
+      "item": "avaritia:singularity|12",
+      "emc": 142921800
+    },
+    {
+      "item": "redstonearsenal:storage|0",
+      "emc": 12537
     }
   ]
 }
